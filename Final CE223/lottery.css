@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Taviraj', serif;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/photo-1536620752150-a7e9e62a62ee.avif");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.content{
+    text-align: center;
+    color: brown;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   display: flex; 
+   align-items: top;
+   justify-content: center;
+}
+button{
+    width: 100px;
+    padding: 0px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: bold;
+    border: 2px solid #5a1010;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
